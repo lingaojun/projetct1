@@ -1,0 +1,59 @@
+# Unity项目默认使用LF
+* text=auto 
+
+# Unity文件
+*.cs text diff=csharp
+*.cginc text
+*.shader text
+
+# Unity YAML
+*.anim -text merge=unityyamlmerge
+*.asset -text merge=unityyamlmerge
+*.controller -text merge=unityyamlmerge
+*.mat -text merge=unityyamlmerge
+*.meta -text merge=unityyamlmerge
+*.physicMaterial -text merge=unityyamlmerge
+*.physicsMaterial2D -text merge=unityyamlmerge
+*.prefab -text merge=unityyamlmerge
+*.unity -text merge=unityyamlmerge
+
+# Unity二进制文件
+*.cubemap binary
+*.unitypackage binary
+*.bytes binary
+*.resource binary
+*.bundle binary
+
+# 图片
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.EXE binary
+*.dll binary
+*.pdb binary
+*.mdb binary
+
+# 音频
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# 视频
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# 3D模型
+*.FBX binary
+*.fbx binary
+*.blend binary
+*.obj binary
+*.max binary
+
+# 字体
+*.ttf binary
+*.otf binary 
